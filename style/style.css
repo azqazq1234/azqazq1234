@@ -1,26 +1,27 @@
-*{margin:0;padding:0;box-sizing:border-box;}
+*{margin:0;padding:0;}
+a{text-decoration: none;}
 
 header{background-color: #e3dfdf;height: 120px;}
-header img{float:left;width: 6%;margin-top: 10px;margin-left: 10px;}
-header h1{float:left;font-size: 90px;margin-top: 15px;margin-left: 20px;color: grey;}
+header img{float: left;width: 6%;margin-top: 10px;margin-left: 10px;}
+header h1{padding-top:15px;}
+header h1 a{font-size: 90px;color: grey;}
 
-
-nav{margin-top:5px;margin-left: 5px;}
+#main{background-color: white;margin-top:5px;margin-left: 10px;}
 .list li{float: left;list-style-type: none;}
 .list li+li a{border-left: 2px solid grey;}
-.list a{display:block;padding:0 20px;text-decoration: none;font-size: 25px;color: grey;font-family: arial;}
+.list a{display:block;padding:0 20px;font-size: 25px;color: grey;font-family: arial;}
 .list a:hover{color: black}
 
-section{clear: both;margin-top: 70px;}
-article{display: table-cell;padding-left: 20px;padding-right: 10px;}
-article h3{font-size: 25px;margin-bottom: 20px;}
-article p{margin-top: 20px;font-size: 20px;font-family: cursive;}
+article{display: table-cell;padding-right: 10px;}
+article h3{font-size: 25px;margin-top:10px;margin-left:10px;margin-bottom: 20px;}
+article iframe{float: left;padding-right: 20px;}
+article p{font-size: 20px;font-family: cursive;text-indent: 20px;}
 
 aside{display: table-cell;width: 200px;border-left: 1px solid black;padding-left: 5px;padding-right: 5px;}
-aside nav{margin-top: 20px;margin-left:50px;width: 140px;}
+aside nav{margin-left:50px;width: 140px;}
 .listaside li{list-style-type: none;text-align: right;}
 .listaside li+li a{margin-top:10px;padding-top:5px;border-top:1px solid grey;}
-.listaside a{display:block;text-decoration: none;color: grey;font-weight: bold;font-size: 17px;}
+.listaside a{display:block;color: grey;font-weight: bold;font-size: 17px;}
 .listaside a:hover{color: black;}
 
-footer{margin-top:150px;margin-left: 20px}
+footer{margin-top:30px;margin-left: 20px}
