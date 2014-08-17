@@ -1,0 +1,34 @@
+*{margin:0;padding: 0;}
+
+h1{font-size: 40px;color:white;background-color: grey;padding:10px 10px;}
+
+.table{width: 250px;margin:10px 10px;border:1px solid #bbb7ae;padding: 10px;box-shadow: 5px 5px 5px grey;}
+.table h3{font-size:25px;color:#bbb7ae;padding-bottom: 5px;padding-top: 10px;}
+.table h3:first-child{padding-top: 0px;}
+.table h4{padding-top: 10px;}
+section#checkbox h4{margin-bottom: 10px;}
+.table fieldset{border:0;}
+.table legend{background-color:#bbb7ae;color:white;font-size:20px;border-radius: 3px;}
+
+.table section{overflow: hidden;border-bottom:5px solid #e7e5df;padding-bottom: 10px;}
+
+.table section label{display:block;padding-top:10px;}
+.table section label:first-child{padding-top:30px;}
+
+.table section input,.table section textarea{border:1px solid #bbb7ae;border-radius:3px;box-shadow:2px 2px 5px #ccc;outline:none;}
+input#name{margin-left: 42px;padding:5px 5px;width: 130px;}
+input#date{margin-left: 10px;padding:3px 5px;width: 130px;}
+
+section#checkbox{border:0px;}
+section#checkbox input{float: left;margin-right: 5px;}
+section#checkbox label{font-size: 15px;margin-top: -10px;margin-bottom:15px;}
+
+section#radio input{margin-left:7px;margin-right:9px;}
+section#radio label{float: left;}
+
+section#note{margin-top: -15px;}
+textarea#description{width:250px;height:60px;margin:5px auto;}
+
+section#submit{border:0px;margin: 10px 0px;}
+input#sub{width: 100px;color: white;font-size: 20px;}
+

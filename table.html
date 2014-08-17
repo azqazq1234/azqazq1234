@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <link href="style/style-table.css" rel="stylesheet" type="text/css"/>
+	<title>this is a table</title>
+</head>
+<body>
+	<h1>产妇信息填报表</h1>
+	<form class="table" action="form.php" method="post">
+		<h3>第一部分</h3>
+		<fieldset>
+			<legend>基本信息</legend>
+			<section id="basic">
+				<label>姓名<input type="text" name="name" id="name" placeholder="请输入用户名" /></label>
+            	<label>出生日期<input type="date" name="date" id="date" /></label>
+            </section>
+		</fieldset>
+
+		<h3>第二部分</h3>
+		<fieldset>
+			<legend>高级信息</legend>
+			<section id="checkbox">
+				<h4>请选择生产方式</h4>
+                	<input type="checkbox" name="checkset" id="check1" value = "1" />
+                	<label for="check1">顺产</label>
+                	<input type="checkbox" name="checkset" id="check2" value = "2" />
+                	<label for="check2">引产</label>
+                	<input type="checkbox" name="checkset" id="check3" value = "3" />
+                	<label for="check3">剖腹产</label>
+			</section>
+
+			<section id="radio">
+				<h4>请选择一项</h4>
+					<label for="radio">保大萌<input type="radio" name="choice" id="da" value="1r" /></label>
+					<label for="radio">保小萌<input type="radio" name="choice" id="xiao" value="2r" /></label>
+					<label for="radio">保萌呆呆<input type="radio" name="choice" id="both" value="3r" /></label>
+			</section>
+
+			<section id="note">
+	            	<label for="description">留言</label>
+	            	<textarea id="description" name="description" placeholder="请输入您的建议"></textarea>
+       		</section>
+		</fieldset>
+
+		<section id="submit">
+			<input type="submit" id="sub" value="提交">
+		</section>
+	</form>
+</body>
+</html>
