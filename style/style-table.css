@@ -1,8 +1,8 @@
-*{margin:0;padding: 0;}
+*{margin:0;padding: 0;border:0px solid black;}
 
 h1{font-size: 40px;color:white;background-color: grey;padding:10px 10px;}
 
-.table{width: 260px;margin:10px 10px;border:1px solid #bbb7ae;padding: 10px;box-shadow: 5px 5px 5px grey;}
+.table{float:left;width: 260px;margin:10px 10px;border:1px solid #bbb7ae;padding: 10px;box-shadow: 5px 5px 5px grey;}
 .table h3{font-size:25px;color:#bbb7ae;padding-bottom: 5px;padding-top: 10px;}
 .table h3:first-child{padding-top: 0px;}
 .table h4{padding-top: 10px;}
@@ -36,3 +36,12 @@ select#select_doctor{margin-top:28.5px;margin-left: 5px;}
 section#submit{border:0px;margin: 10px 0px;}
 input#sub{width: 100px;color: white;font-size: 20px;cursor: pointer;}
 
+section#main{float:left;}
+section figure{margin-top: 10px;width:284.5px;height:379px;position: relative;float: left;}
+section figure img{width:99%;}
+section figcaption{display: none;position: absolute;left: 40%;top: 90%;border-radius: 4px;border:3px solid red;background-color: grey;padding: 3px;}
+section figcaption h3{color: white;}
+section figure:hover figcaption{display: block;z-index: 2;}
+section figcaption a{text-decoration: none;color: black;font-size: 10px;}
+section figcaption:before{content: "";position: absolute;border:10px solid;border-color: transparent red transparent transparent;
+right: 100%;top:10px;height: 0px;width:0px;}

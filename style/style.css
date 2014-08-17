@@ -5,6 +5,10 @@ header{background-color: #eee;height: 120px;}
 header img{float: left;width: 6%;margin-top: 10px;margin-left: 10px;margin-right: 30px;}
 header h1{padding-top:15px;}
 header h1 a{font-size: 90px;color: grey;}
+form.search{margin-left: 1280px;margin-top: -20px;}
+form.search label{display: none;}
+form.search input{width: 100px;font-size: 20px;padding: 2px;outline: none;-webkit-transition:0.5s width;}
+form.search input:focus{width:150px;}
 
 .list li{list-style-type: none;float: left;position: relative;}
 .list a{display: block;color: grey;font-size: 25px;padding-right: 35px;padding-left: 35px;}
