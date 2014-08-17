@@ -3,16 +3,17 @@ a{text-decoration: none;}
 
 header{background-color: #eee;height: 120px;}
 header img{float: left;width: 6%;margin-top: 10px;margin-left: 10px;margin-right: 30px;}
-header h1{padding-top:15px;float: left;}
+header h1{padding-top:15px;}
 header h1 a{font-size: 90px;color: grey;}
-form.search{padding-top: 70px;padding-left: 1300px;}
+form.search{margin-right: 10px;margin-top:-10px;float: right;}
 form.search label{display: none;}
 form.search input{width: 100px;font-size: 20px;padding: 2px;outline: none;-webkit-transition:0.5s width;}
 form.search input:focus{width:150px;}
 
+nav.list{border: 1px solid black;}
 .list li{list-style-type: none;float: left;position: relative;}
 .list a{display: block;color: grey;font-size: 25px;padding-right: 35px;padding-left: 35px;}
-li#table{margin-left: 710px;}
+li#table{margin-right: 0px;padding:0px;float: right;}
 .list li:hover > a{color: black;}
 
 .list li ul{display:none;position: absolute;left: 0;top: 100%;width: 140px;}
