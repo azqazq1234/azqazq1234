@@ -29,6 +29,10 @@ section#radio label{float: left;}
 section#note{margin-top: -15px;}
 textarea#description{width:250px;height:60px;margin:5px auto;}
 
+section#select{margin-top: -15px;}
+section#select label{font-weight: bold;float: left;}
+select#select_doctor{margin-top:28.5px;margin-left: 5px;}
+
 section#submit{border:0px;margin: 10px 0px;}
-input#sub{width: 100px;color: white;font-size: 20px;}
+input#sub{width: 100px;color: white;font-size: 20px;cursor: pointer;}
 
