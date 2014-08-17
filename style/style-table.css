@@ -2,7 +2,7 @@
 
 h1{font-size: 40px;color:white;background-color: grey;padding:10px 10px;}
 
-.table{width: 250px;margin:10px 10px;border:1px solid #bbb7ae;padding: 10px;box-shadow: 5px 5px 5px grey;}
+.table{width: 260px;margin:10px 10px;border:1px solid #bbb7ae;padding: 10px;box-shadow: 5px 5px 5px grey;}
 .table h3{font-size:25px;color:#bbb7ae;padding-bottom: 5px;padding-top: 10px;}
 .table h3:first-child{padding-top: 0px;}
 .table h4{padding-top: 10px;}
