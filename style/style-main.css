@@ -30,9 +30,12 @@ nav.nav_title li li li a{font-size: 20px;line-height: 25px;}
 section{margin-top: 70px;}
 
 section article{display: table-cell;padding-left: 20px;}
-section p{padding-top: 30px;padding-right: 300px;font-size: 40px;color: black;font-family:HanWangYenThin-Gb563309;}
-p.love span{color: red;font-size: 60px;font-family: 12px/1.5 Tahoma;}
-section p:first-letter{font-size: 90px;line-height: 0.7;float: left;margin:6px; }
+section#text{padding-top: 30px;padding-right: 300px;}
+section p.love{font-size: 30px;color: black;}
+p.love span{color: red;font-size: 60px;}
+section p:first-letter{font-size: 90px;line-height: 0.7;float: left;margin-top: 15px;}
+section p.like{font-size: 30px;color: black;}
+p.like span{color: #6c41ba;font-size: 55px;}
 
 
 section aside{display: table-cell;width: 300px;border-left: 1px solid grey;padding-left: 15px;}
