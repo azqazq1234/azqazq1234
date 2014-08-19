@@ -30,3 +30,4 @@ section section{position: relative;}
 section img{width: 80%;}
 section p{position: absolute;left: 15%;top:30%;font-size: 60px;color: white;width: 400px;text-align: left;}
 section p#hongkong{color: grey;}
+section p#cj{top: 40%}
