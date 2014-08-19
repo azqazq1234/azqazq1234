@@ -17,13 +17,13 @@ nav.nav_title li a{color: grey;font-size: 30px;font-variant: small-caps;padding:
 nav.nav_title li a#resume{border:0px;color: red;}
 nav.nav_title li:hover > a{color: black;}
 
-nav.nav_title li ul{position: absolute;left: 0;top: 100%;display: none;}
+nav.nav_title li ul{position: absolute;left: 0;top: 100%;-webkit-transition:.5s all;opacity: 0; visibility: hidden;}
 nav.nav_title li li{width: 180px;background-color: white;}
 nav.nav_title li li a{border:0px;}
-nav.nav_title li:hover > ul{display: block;}
+nav.nav_title li:hover > ul{display: block;opacity: 1; visibility: visible;}
 
-nav.nav_title li li ul{position: absolute;left: 100%;top: 0;display: none;}
-nav.nav_title li li:hover > ul{display: block;}
+nav.nav_title li li ul{position: absolute;left: 100%;top: 0;-webkit-transition:.5s all;opacity: 0; visibility: hidden;}
+nav.nav_title li li:hover > ul{display: block;opacity: 1; visibility: visible;}
 nav.nav_title li li ul{border-bottom: 5px solid #eee;border-right: 5px solid #eee;border-radius: 5px;}
 nav.nav_title li li li{width: 200px;}
 nav.nav_title li li li a{font-size: 20px;line-height: 25px;}
@@ -32,12 +32,7 @@ section{margin-top: 70px;}
 
 section article{display: table-cell;padding-left: 20px;}
 
-section#text{padding-top: 30px;padding-right: 300px;}
-section p.love{font-size: 30px;color: black;}
-p.love span{color: red;font-size: 60px;}
-section p:first-letter{font-size: 90px;line-height: 0.7;float: left;margin-top: 15px;}
-section p.like{font-size: 30px;color: black;}
-p.like span{color: #6c41ba;font-size: 55px;}
+
 
 
 section aside{display: table-cell;width: 300px;border-left: 1px solid grey;padding-left: 15px;}
