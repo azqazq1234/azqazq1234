@@ -29,8 +29,8 @@ nav.nav_title li li ul{border-bottom: 5px solid #eee;border-right: 5px solid #ee
 nav.nav_title li li li{width: 200px;}
 nav.nav_title li li li a{font-size: 20px;line-height: 25px;}
 
-.no-csstransitions nav.menu li ul {visibility:visible;opacity:1；display:none;}
-.no-csstransitions nav.menu li:hover > ul {display:block;}
+.no-csstransitions nav.nav_title li ul {visibility:visible;opacity:1；display:none;}
+.no-csstransitions nav.nav_title li:hover > ul {display:block;}
 
 section{margin-top: 70px;}
 
