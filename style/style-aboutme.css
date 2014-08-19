@@ -1,0 +1,11 @@
+*{margin:0;padding:0;}
+a{text-decoration: none;}
+body{background: url(../images/aboutmeback.jpg);background-size: 100% 100%;background-attachment: fixed;}
+
+section h1{font-size: 90px;color: #03a9f4;margin-left: 30px;margin-top: 20px;}
+#text{margin-top: 30px;margin-left:50px;width: 500px;}
+p.love span{color: red;font-size: 40px;}
+p.like span{color: #6c41ba;font-size: 40px;}
+section p:first-letter{font-size: 80px;line-height: 0.7;float: left;margin-top: 15px;}
+section p.like{font-size: 28px;color: white;}
+section p.love{font-size: 28px;color: white;}
