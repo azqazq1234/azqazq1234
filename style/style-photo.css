@@ -1,8 +1,8 @@
 *{margin:0;padding:0;}
 a{text-decoration: none;}
 
-nav.nav_title{margin:10px auto;text-align: center;}
-nav.nav_title > ul{background-color: #eee;display: inline-block;border-radius: 7px}
+nav.nav_title{margin:0px auto;padding-top:10px;padding-bottom:5px;text-align: center;background-color: #eee;}
+nav.nav_title > ul{display: inline-block;}
 nav.nav_title li{list-style-type: none;float: left;display:block;position: relative;}
 nav.nav_title li+li a{border-left:1px solid grey;}
 nav.nav_title li a{color: grey;font-size: 30px;font-variant: small-caps;padding:0px 20px;}
