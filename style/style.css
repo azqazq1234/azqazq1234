@@ -20,13 +20,10 @@ img{width: 60%;}
 p{color:white;
 font-size: 18px;
 margin: 10px auto;}
-section a{margin-top: 30px;
+section a#enter{margin-top: 30px;
 font-size: 40px;
 font-family: monospace;
 text-decoration: none;
 color: grey;}
-
-footer{margin-top:70px; 
-text-align: center;}
-footer p{font-size: 10px;
-color: grey;}
+section a#enter:hover{font-size: 45px;}
+section a#enter:active{color: white;}
