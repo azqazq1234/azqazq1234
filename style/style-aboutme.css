@@ -9,3 +9,19 @@ p.like span{color: #6c41ba;font-size: 40px;}
 section p:first-letter{font-size: 80px;line-height: 0.7;float: left;margin-top: 15px;}
 section p.like{font-size: 28px;color: white;}
 section p.love{font-size: 28px;color: white;}
+
+nav.nav_title ul{float: left;margin-left: 470px;margin-top: 280px;}
+nav.nav_title li{list-style-type: none;float: left;display:block;position: relative;}
+nav.nav_title li+li a{border-left:1.5px solid grey;}
+nav.nav_title li a{color: white;font-size: 40px;font-variant: small-caps;padding:0px 20px;}
+nav.nav_title li:hover > a{color: grey;}
+
+nav.nav_title li ul{position: absolute;left: 0;top: -400%;display: none;margin:0;padding: 0;}
+nav.nav_title li li{position: relative;float: none;width: 200px;}
+nav.nav_title li li a{border:0px;}
+nav.nav_title li:hover > ul{display: block;}
+
+nav.nav_title li li ul{position: absolute;left: 100%;top: 0;display: none;}
+nav.nav_title li li:hover > ul{display: block;}
+nav.nav_title li li li{width: 200px;}
+nav.nav_title li li li a{font-size: 20px;line-height: 25px;}
