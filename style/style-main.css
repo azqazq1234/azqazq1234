@@ -10,7 +10,7 @@ header form label{display: none;}
 header form input{outline: none;-webkit-transition:.5s width;width: 100px;}
 header form input:focus{width: 150px;};
 
-nav.nav_title ul{overflow: hidden;background-color: #eee;padding: 10px 10px;position: relative;}
+nav.nav_title ul{overflow: hidden;background-color: #eee;padding: 10px 10px;position: relative;z-index: 2;}
 nav.nav_title li{list-style-type: none;float: left;display:block;position: relative;}
 nav.nav_title li:last-child{position:absolute;right: 0px;}
 nav.nav_title li+li a{border-left:1px solid grey;}
@@ -18,7 +18,7 @@ nav.nav_title li a{color: grey;font-size: 30px;font-variant: small-caps;padding:
 nav.nav_title li a#resume{border:0px;color: red;}
 nav.nav_title li:hover > a{color: black;}
 
-nav.nav_title li ul{position: absolute;left: 0;top: 100%;-webkit-transition:1s all;opacity: 0; visibility: hidden;}
+nav.nav_title li ul{position: absolute;left: 0;top: 100%;-webkit-transition:1s all;opacity: 0; visibility: hidden;z-index: 2;}
 nav.nav_title li li{width: 180px;background-color: white;}
 nav.nav_title li li a{border:0px;}
 nav.nav_title li li:hover > a{margin-left: 3px;}
