@@ -1,6 +1,6 @@
 *{margin:0;padding:0;}
 a{text-decoration: none;}
-body{background: url(../images/aboutmeback.jpg);background-size: 100% 100%;background-attachment: fixed;}
+body{background: url(../images/aboutmeback.jpg);background-size: cover;background-attachment: fixed;}
 
 section h1{font-size: 90px;color: #03a9f4;margin-left: 30px;margin-top: 20px;}
 #text{margin-top: 30px;margin-left:50px;width: 500px;}
@@ -10,7 +10,7 @@ section p:first-letter{font-size: 80px;line-height: 0.7;float: left;margin-top: 
 section p.like{font-size: 28px;color: white;}
 section p.love{font-size: 28px;color: white;}
 
-nav.nav_title{margin: 260px auto;text-align: center;}
+nav.nav_title{margin: 260px auto;margin-bottom:0px;text-align: center;}
 nav.nav_title > ul{display: inline-block;}
 nav.nav_title li{list-style-type: none;float: left;display:block;position: relative;}
 nav.nav_title li+li a{border-left:1.5px solid grey;}
