@@ -39,8 +39,6 @@ section article h2{font-size: 50px;}
 section article h3{margin-bottom: 20px;}
 
 .mainphoto{position: relative;float: left;}
-.mainphoto img{max-width:300px; 
-           _width:expression_r(this.width<200px?"auto":"30px"); }
 .mainphoto p{font-size: 200px;position: absolute;left: 20%;top: 10%;color: #eee;text-align: center;font-variant: small-caps;}
 
 section aside{float:left;width: 300px;border-left: 1px solid grey;padding-left: 15px;margin-top:80px;float: right;}
