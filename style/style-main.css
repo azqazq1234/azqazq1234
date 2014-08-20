@@ -1,6 +1,6 @@
 *{margin:0;padding:0;}
 a{text-decoration: none;}
-body{background-color: #eee;}
+body{background-color: #eee;width: 100%;}
 
 header{background-color:grey;position: relative;height: 110px;width: 100%;}
 header img{position: absolute;left: 10px;top: 10px;}
@@ -12,10 +12,10 @@ header form input:focus{width: 150px;};
 
 nav.nav_title ul{overflow: hidden;background-color: #eee;padding: 10px 10px;position: relative;z-index: 2;}
 nav.nav_title li{list-style-type: none;float: left;display:block;position: relative;}
-nav.nav_title li:last-child{position:absolute;right: 0px;}
+nav.nav_title li:last-child{padding-left: 600px;}
 nav.nav_title li+li a{border-left:1px solid grey;}
 nav.nav_title li a{color: grey;font-size: 30px;font-variant: small-caps;padding:5px 20px;}
-nav.nav_title li a#table{border:0px;color: red;}
+nav.nav_title li a#table{color: red;}
 nav.nav_title li:hover > a{color: black;}
 
 nav.nav_title li ul{position: absolute;left: 0;top: 100%;-webkit-transition:1s all;opacity: 0; visibility: hidden;z-index: 2;}
