@@ -28,7 +28,7 @@ nav.nav_title li li li a{font-size: 20px;line-height: 25px;}
 
 
 section{width: 70%;background-color: black;margin: 0px auto;}
-section h1{font-size: 85px;color:white;text-align: center;padding-top: 50px;padding-bottom: 70px;}
+section h1{font-size: 85px;color:white;text-align: center;padding-top: 50px;padding-bottom: 40px;}
 section article{margin:40px;margin-bottom: 80px;}
 section article h2 a{color: #ddd;font-size: 30px;}
 section article h2 a:hover{color:grey;}
