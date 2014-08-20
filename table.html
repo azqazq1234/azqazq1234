@@ -6,15 +6,18 @@
 	<title>this is a table</title>
 </head>
 <body>
-	<h1>产妇信息填报表</h1>
+	<h1>我的简历</h1>
 	<form class="table" action="form.php" method="post">
 		<h3>第一部分</h3>
 		<fieldset>
 			<legend>基本信息</legend>
-			<section id="basic">
-				<label>姓名<input type="text" name="name" id="name" placeholder="请输入用户名" /></label>
-            	<label>出生日期<input type="date" name="date" id="date" /></label>
-            </section>
+			<p>姓名：周立桦</p>
+			<h4>性别：</h4>
+			<label for="radio">男<input type="radio" name="choice" id="da" value="1" checked="1r" /></label>
+			<label for="radio">女<input type="radio" name="choice" id="da" value="2" /></label>
+			<p>出生日期：1991年1月8日</p>
+			<p>籍贯：上海</p>
+			
 		</fieldset>
 
 		<h3>第二部分</h3>
@@ -38,42 +41,10 @@
 			</section>
 
 			<section id="note">
-	            	<label for="description">留言</label>
+	            	<label for="description">自我评价</label>
 	            	<textarea id="description" name="description" placeholder="请输入您的建议"></textarea>
        		</section>
-
-       		<section id="select">
-       				<label for="select_doctor">选择助产医生</label>
-       				<select id="select_doctor" name="select_doctor">
-       					<option value="0">实习医生格蕾</option>
-       					<option value="1">实习医生蕾蕾</option>
-       					<option value="2">实习医生额蕾</option>
-       					<option value="3">实习医生讯蕾</option>
-       				</select>
-       		</section>
 		</fieldset>
-
-		<section id="submit">
-			<input type="submit" id="sub" value="提交">
-		</section>
 	</form>
-
-	<section id="main">
-	<figure>
-		<img src="images/mm1.jpg" />
-		<figcaption>
-			<h3>这个是大萌子</h3>
-			<a href="#">更多信息</a>
-		</figcaption>
-	</figure>
-	<figure>
-		<img src="images/mm2.jpg" />
-		<figcaption>
-			<h3>这个是大大萌子</h3>
-			<a href="#">更多信息</a>
-		</figcaption>
-	</figure>
-	</section>
-	
 </body>
 </html>

@@ -15,7 +15,7 @@ nav.nav_title li{list-style-type: none;float: left;display:block;position: relat
 nav.nav_title li:last-child{position:absolute;right: 0px;}
 nav.nav_title li+li a{border-left:1px solid grey;}
 nav.nav_title li a{color: grey;font-size: 30px;font-variant: small-caps;padding:5px 20px;}
-nav.nav_title li a#resume{border:0px;color: red;}
+nav.nav_title li a#table{border:0px;color: red;}
 nav.nav_title li:hover > a{color: black;}
 
 nav.nav_title li ul{position: absolute;left: 0;top: 100%;-webkit-transition:1s all;opacity: 0; visibility: hidden;z-index: 2;}
