@@ -12,7 +12,7 @@ body{margin: 40px auto;width: 960px;border:0px solid black;}
 #name{float:left;padding-left: 20px;padding-top: 0px;}
 #name h1{font-size: 60px;}
 #name h1 span{font-size: 25px;color:grey;}
-#name a{font-size: 25px;}
+#name a{font-size: 25px;padding-left: 10px;}
 #name p{font-size: 25px;}
 #basic{line-height: 30px;text-align: right;margin-right: 20px;}
 #basic h2{font-size: 30px;}
