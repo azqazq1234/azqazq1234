@@ -4,6 +4,6 @@ $(function(){
 		.css({"border":"5px solid black","borderRadius":"5px","borderColor":"grey"})
 	})
 	$('section section img').mouseleave(function(){
-		$(this).animate({width:'80%'},500).css("border","0px")
+		$(this).animate({width:'80%'},300).css("border","0px")
 	})
 })

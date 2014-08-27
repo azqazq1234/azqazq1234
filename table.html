@@ -2,50 +2,68 @@
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style/style-table.css" rel="stylesheet" type="text/css"/>
     <link rel="shortcut icon" type="image/x-icon" href="images/logo.jpg"/>
-	<title>this is a table</title>
+	<title>my resume</title>
 </head>
 <body>
-	<h1>我的简历</h1>
-	<form class="table" action="form.php" method="post">
-		<h3>第一部分</h3>
-		<fieldset>
-			<legend>基本信息</legend>
-			<p>姓名：周立桦</p>
-			<h4>性别：</h4>
-			<label for="radio">男<input type="radio" name="choice" id="da" value="1" checked="1r" /></label>
-			<label for="radio">女<input type="radio" name="choice" id="da" value="2" /></label>
-			<p>出生日期：1991年1月8日</p>
-			<p>籍贯：上海</p>
-			
-		</fieldset>
+	<section id="head">
+		<div id="name">
+			<h1>周立桦<span>male</span></h1>
+			<a href="http://tuchong.com/319649">pic show</a>
+		</div>
+		<div id="basic">
+			<h2>职位意向:前端工程师</h2>
+			<p>Tel:<a href="tel:13127591723">13127591723</a></p>
+			<p>mail:<a href="mailto:flower89757@163.com">flower89757@163.com</a></p>
+			<p>mygitHub:<a href="https://github.com/azqazq1234">https://github.com/azqazq1234</a></p>
+		</div>
+	</section>
 
-		<h3>第二部分</h3>
-		<fieldset>
-			<legend>高级信息</legend>
-			<section id="checkbox">
-				<h4>请选择生产方式</h4>
-                	<input type="checkbox" name="checkset" id="check1" value = "1" />
-                	<label for="check1">顺产</label>
-                	<input type="checkbox" name="checkset" id="check2" value = "2" />
-                	<label for="check2">引产</label>
-                	<input type="checkbox" name="checkset" id="check3" value = "3" />
-                	<label for="check3">剖腹产</label>
-			</section>
+	<section id="overview">
+		<h3 class="chnt">自我介绍<span class="engt">Overview</span></h3>
+		<p class="chnp">大学读的电子综合专业，一直喜欢捣鼓计算机，热爱前端技术，认为前端真正提现了人机交互。能较熟练使用html，css和js，拥有良好编程习惯，希望能在前端领域实现个人价值。</p>
+	</section>
 
-			<section id="radio">
-				<h4>请选择一项</h4>
-					<label for="radio">保大萌<input type="radio" name="choice" id="da" value="1r" /></label>
-					<label for="radio">保小萌<input type="radio" name="choice" id="xiao" value="2r" /></label>
-					<label for="radio">保萌呆呆<input type="radio" name="choice" id="both" value="3r" /></label>
-			</section>
+	<section id="skills">
+		<h3 class="chnt">专业技能点<span class="engt">GetPoints</span></h3>
+		<ul class="chnp">
+			<li>较为熟悉HTML、CSS设计和美化网页，了解W3C</li>
+            <li>了解Javascript基本概念操作</li>
+            <li>了解Jquery的基本语法，能用Jquery编写简单的动态网页</li>
+            <li>熟悉版本控制使用gitHub托管网页</li>
+            <li>熟练使用Lightroom处理照片</li>
+       	</ul>
+	</section>
 
-			<section id="note">
-	            	<label for="description">自我评价</label>
-	            	<textarea id="description" name="description" placeholder="请输入您的建议"></textarea>
-       		</section>
-		</fieldset>
-	</form>
+	<section id="education">
+		<h3 class="chnt">学历<span class="engt">Education</span></h3>
+		<ul class="chnp">
+			<li>2009.9~2013.6 本科 上海理工大学 光电信息工程</li>
+            <li>2013.9~2014.6 交换 德国开姆尼茨工大 微系统</li>
+       	</ul>
+	</section>
+
+	<section id="project">
+		<h3 class="chnt">个人项目<span class="engt">Project</span></h3>
+        <p class="chnp">个人博客结痂社建设</p>
+        <ul class="chnp">
+            <li>熟悉典型的三栏、两栏、固定和浮动布局；</li>
+            <li>熟悉机具弹性的网格式布局；</li>
+            <li>熟悉瀑布流布局和按需加载；</li>
+            <li>使用的语言和技术：HTML，CSS，JQUERY</li>
+        </ul>
+	</section>
+
+	<section id="hobby">
+		<h3 class="chnt">兴趣<span class="engt">Hobbys</span></h3>
+		<ul class="chnp">
+			<li>酷爱摄影，投入金钱时间不计其数，无奈水平增长和投入不成正比：）</li>
+			<li>同样热衷旅游，已游历五国两大洲，目标是星辰大海</li>
+		</ul>
+	</section>
+
+
 </body>
 </html>
